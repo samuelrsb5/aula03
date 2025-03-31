@@ -7,5 +7,7 @@ media = (nota_1 + nota_2 + nota_3) / 3
 
 if media >= 7:
     print(f"{nome_aluno}, sua média é {media} e você está aprovado")
-else:
+if media < 4:
     print(f"{nome_aluno}, sua média é {media} e você está reprovado")
+else:
+    print((f"{nome_aluno}, sua média é {media} e você irá para a recuperação"))
