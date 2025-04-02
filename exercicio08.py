@@ -1,4 +1,4 @@
-numero = float(input("Informe um número: "))
+numero = int(input("Informe um número: "))
 
 resto = numero % 2
 
