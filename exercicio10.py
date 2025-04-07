@@ -1,4 +1,3 @@
 nome = input("Informe seu nome: ")
-print(nome)
-print(nome)
-print(nome)
+for x in range(0,3,1):
+    print(nome, end = " ")
